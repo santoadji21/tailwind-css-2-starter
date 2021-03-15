@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite ./public",
+    "css": "tailwind build src/tailwindcss.css -c tailwind.config.js -o public/css/tailwind.css",
+    "build": "postcss src/css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "stylelint-config-recommended": "^4.0.0",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.5"
+  }
+}
